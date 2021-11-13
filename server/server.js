@@ -18,7 +18,7 @@ app.use(cors());
 
 app.use('/api/tasks', TaskRoutes);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 27017;
 
 app.listen(port, function () {
     console.log('Server listening on port ' + port);
